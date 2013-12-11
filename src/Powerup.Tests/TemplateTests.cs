@@ -44,13 +44,6 @@ namespace Powerup.Tests
             result.AddText(tableText);
             Assert.That(result.TemplatedProcedure(), Is.StringContaining(tableText));
         }
-
-        [Test]
-        public void Enum_to_string()
-        {
-            Console.WriteLine(SqlType.View);
-        }
-
     }
 
     
